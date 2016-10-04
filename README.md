@@ -27,3 +27,13 @@ Wie ben ik moet aan de volgende technische eisen voldoen:
 * je zorgt dat elk level een eigen afbeelding heeft;
 * je past de stylesheet aan om het spel een eigen "look & feel" te geven;
 * het hele spel vindt plaats zonder de complete pagina te herladen (je mag dus geen links <a> gebruiken);
+
+###Bonus
+* Gebruik een onload event om iets voor elkaar te krijgen op het moment dat de spelpagina helemaal is geladen (denk aan een animatie starten of een geluid afspelen);
+* Maak een minigame om een aanval te ontwijken (je kunt met verschillende toetsen heen en weer bewegen);
+
+###Aanvullende bronnen
+
+
+
+
