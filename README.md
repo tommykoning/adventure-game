@@ -12,6 +12,7 @@ Deze opdracht moet aan de volgende functionele eisen voldoen:
 * het verhaal kent een "win" einde;
 * het verhaal kent meerdere "faal" eindes;
 * het verhaal kent meerdere routes en meerdere eindpunten, je kunt het verhaal dus meerdere keren spelen met verschillende uitkomsten;
+* je kiest afbeeldingen die de sfeer in het spel ondersteunen;
 
 Je kunt bij het verzinnen van het verhaal denken aan een "Escape Room" of een spel zoals "Myst".
 
@@ -23,4 +24,6 @@ Wie ben ik moet aan de volgende technische eisen voldoen:
 * elke functie logt de titel van het level naar de console;
 * elke functie stelt de optieknoppen, de titel, het plaatje en het verhaaltje;
 * het wisselen van locaties gebeurt door gebruik te maken van de onClick actions van de buttons;
-
+* je zorgt dat elk level een eigen afbeelding heeft;
+* je past de stylesheet aan om het spel een eigen "look & feel" te geven;
+* het hele spel vindt plaats zonder de complete pagina te herladen (je mag dus geen links <a> gebruiken);
