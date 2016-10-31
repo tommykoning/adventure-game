@@ -1,0 +1,14 @@
+body { 
+background-color: black; 
+color: rgba(0, 255, 0, 1);}
+
+p { 
+color: rgba(0, 255, 0, 1); }
+
+nav { 
+color: white; 
+border-style: solid;
+border-color: white; 
+position: fixed;
+top: 0;
+right: 0; }
