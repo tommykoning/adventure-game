@@ -1,14 +1,54 @@
 body { 
-background-color: black; 
-color: rgba(0, 255, 0, 1);}
+	background-color: black; 
+	color: rgba(0, 255, 0, 1);}
+
+#main { 
+	border-style: solid;
+	border-color: rgba(0, 255, 0, 1);
+	width: 90%; 
+	height: 70%; 
+	margin: 10px 5% 0px 5%;
+	position: absolute; 
+	overflow-y: scroll;}
+
+#tekst { 
+	display: inline; }
+
+#end { 
+	background-color: rgba(0, 255, 0, 1);
+	display: inline; }
+
+#menu { 
+	border-style: solid;
+	border-color: rgba(0, 255, 0, 1);
+	width: 90%;
+	height: 20%;
+	margin: 0px 5% 0px 5%;
+	position: fixed;
+	bottom: 0px;}
+
+#menu-t { 
+color: white; }
 
 p { 
-color: rgba(0, 255, 0, 1); }
+	color: rgba(0, 255, 0, 1);
+	margin: 16px 10px 16px 10px;
+	font-family: "Courier New", Courier, monospace;}
 
 nav { 
-color: white; 
-border-style: solid;
-border-color: white; 
-position: fixed;
-top: 0;
-right: 0; }
+	color: white; 
+	background-color: black; 
+	border-style: solid;
+	border-color: rgba(0, 255, 0, 1); 
+	position: fixed;
+	top: 3%;
+	right: 5.5%; 
+	text-align: left;}
+
+ul {
+	padding: 0px 40px 5px 10px;}
+
+
+li { 
+	list-style-type: none;
+	font-family: "Courier New", Courier, monospace}
