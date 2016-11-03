@@ -7,21 +7,40 @@
 </head>
 <body>
 
+<ul class="tab"> 
+<li><button class="tabLink" id="but-1" type="none" onclick="javascript:openscreen(event, 'story');">story</button></li>
+<li><button class="tabLink" id="but-2" type="none" onclick="javascript:openscreen(event, 'info')">informatie</button></li>
+</ul>
 
+<article id="screen">
+	<nav>
+		<ul class="skip">
+			<li>skip</li>
+			<li>back</li>
+		</ul>
+	</nav>
+	
+	<div class="screen" id="story">
+			<p id="text">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br>> <p id="end"> _ </p> 
+		</p> 
+	</div>
 
-<div id="main">
-<nav><ul>
-	<li>skip</li>
-	<li>back</li>
-</ul></nav>
-
-<p id="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br>> <p id="end"> _ </p> </p> 
-</div>
+	<div class="screen" id="info"> 
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br>> <p id="end"> _ </p>
+		</p>
+	</div>
+</article>
 
 <section id="menu">
 	<p id="menu-t">test</p>

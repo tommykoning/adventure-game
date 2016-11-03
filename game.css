@@ -2,17 +2,53 @@ body {
 	background-color: black; 
 	color: rgba(0, 255, 0, 1);}
 
-#main { 
+.tab { 
 	border-style: solid;
 	border-color: rgba(0, 255, 0, 1);
-	width: 90%; 
-	height: 70%; 
-	margin: 10px 5% 0px 5%;
+	width: 87.5%; 
+	height: 34px;
+	margin: 0px 5% 0px 5%;}
+
+.tab li { 
+	float: left; }
+
+button { 
+	padding: 10px;
+	color:  rgba(0, 255, 0, 1);
+	background-color: black;
+	border: 1px solid;
+	border-color: rgba(0, 255, 0, 1); 
+	font-family: "Courier New", Courier, monospace;}
+
+.screen { 
+	display: none;
+	border-style: solid;
+	border-color: rgba(0, 255, 0, 1);
+	width: 80%; 
+	height: 60%; 
+	float: right;
+	margin: 10px 5% 0px 0%;
 	position: absolute; 
-	overflow-y: scroll;}
+	overflow-y: scroll;
+	left: 15%;  }
+
+
+nav { 
+	color: white; 
+	background-color: black; 
+	border-style: solid;
+	border-color: rgba(0, 255, 0, 1); 
+	margin: 10px 0px 0px 5%;
+	position: relative;
+	float: left;
+	width: 9%; 
+	text-align: left;
+	z-index: 1 ;}
 
 #tekst { 
-	display: inline; }
+	display: inline; 
+	color:green;
+}
 
 #end { 
 	background-color: rgba(0, 255, 0, 1);
@@ -28,22 +64,12 @@ body {
 	bottom: 0px;}
 
 #menu-t { 
-color: white; }
+	color: white; }
 
 p { 
 	color: rgba(0, 255, 0, 1);
 	margin: 16px 10px 16px 10px;
 	font-family: "Courier New", Courier, monospace;}
-
-nav { 
-	color: white; 
-	background-color: black; 
-	border-style: solid;
-	border-color: rgba(0, 255, 0, 1); 
-	position: fixed;
-	top: 3%;
-	right: 5.5%; 
-	text-align: left;}
 
 ul {
 	padding: 0px 40px 5px 10px;}
