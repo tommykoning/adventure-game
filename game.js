@@ -18,3 +18,13 @@ var i, tabLink, screen;
 	evt.currentTarget.className += "active";
 	}
 
+	// Get the element with id="defaultOpen" and click on it
+	document.getElementById("but-2").click();
+
+$('.screen').typewrite({
+   'delay': 100, //time in ms between each letter
+   'extra_char': '', //"cursor" character to append after each display
+   'trim': true, // Trim the string to type (Default: false, does not trim)
+});
+
+ 
