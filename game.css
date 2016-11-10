@@ -12,6 +12,9 @@ body {
 .tab li { 
 	float: left; }
 
+ul.tab li a:focus, .active { 
+	color: rgba(0, 255, 0, 1); }
+
 button { 
 	padding: 10px;
 	color:  white ;
@@ -36,10 +39,10 @@ button {
 	animation: blink 1s infinite }
 
 @keyframes blink { 
-	0% { background-color: none;}
+	0% { background-color: black;}
 	25% { background-color: rgba(0, 255, 0, 1);}
 	75% { background-color: rgba(0, 255, 0, 1);}
-	100% { background-color: none;}}
+	100% { background-color: black;}}
 
 nav { 
 	color: white; 
