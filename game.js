@@ -18,7 +18,12 @@
 			evt.currentTarget.className += " active"; }
 	
 		// auto click on but-2
-			document.getElementById("but-1").click();
+			document.getElementById("but-2").click();
+
+
+//restard
+	function restart() { 
+		location.reload();}
 
 //typewrighter
 	//verhaal
@@ -32,4 +37,5 @@
 	setInterval(function(){ 
 		if (Count < cut.length) { 
 			document.getElementById("text").innerHTML = document.getElementById("text").innerHTML + cut[Count]};
-			Count ++;},50);
+			Count ++;} ,50);
+

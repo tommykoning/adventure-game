@@ -23,7 +23,8 @@ body {
 	float: left; }
 
 ul.tab li a:focus, .active { 
-	color: rgba(0, 255, 0, 1); }
+	color: rgba(0, 255, 0, 1); 
+	cursor:default;}
 
 button { 
 	padding: 10px;
@@ -113,3 +114,6 @@ ul {
 li { 
 	list-style-type: none;
 	font-family: "Courier New", Courier, monospace}
+
+button, li, #pic { 
+	cursor:pointer; }
