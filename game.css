@@ -2,10 +2,11 @@ body {
 	background-color: black; 
 	color: rgba(0, 255, 0, 1);}
 
-#Modal { 
+#modal { 
 	display: none; 
     position: fixed;
-    z-index: 1; 
+    	left: 25%;
+    z-index: 3; 
     padding-top: 100px;
     top: 0;
     width: 100%;
@@ -94,7 +95,12 @@ nav {
 	color: white; }
 
 #execute { 
-	float: left; }
+	margin: 16px 10px 16px 10px;}
+
+.choice { 
+	float: left;
+	display: block; 
+	margin: 0px}
 
 #pic { 
 	float: right;
@@ -117,3 +123,4 @@ li {
 
 button, li, #pic { 
 	cursor:pointer; }
+
