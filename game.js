@@ -13,11 +13,11 @@
 		//get active removed
 			tabLink = document.getElementsByClassName("tabLink");
 			for (var i = 0; i < tabLink.length; i++) {
-			 	tabLink[i].className = tabLink[i].className.replace (" active ", "");}
+			 	tabLink[i].className = tabLink[i].className.replace (" active", "");}
 		
 		//make visible
 			document.getElementById(screenname).style.display = "block"; 
-			evt.currentTarget.className += " active "; }
+			evt.currentTarget.className += " active"; }
 	
 		// auto click on but-2
 			document.getElementById("but-2").click();

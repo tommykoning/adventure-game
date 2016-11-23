@@ -97,14 +97,15 @@ nav {
 #execute { 
 	margin: 16px 10px 16px 10px;}
 
-.choice { 
-	float: left;
-	display: block; 
-	margin: 0px}
+.choice {  
+	margin: 0px; 
+	margin: 5px}
 
-#pic { 
-	float: right;
-	height: 75%;
+#pic {
+	position: fixed;
+	right: 55px;
+	top: 80% ;
+	height: 19%;
 	width: 20%; 
 	margin: 0px 1% 0px 0px; }
 
