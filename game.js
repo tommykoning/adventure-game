@@ -1,6 +1,4 @@
 // tabs
-
-
 	function openscreen(evt, screenname) {
 	
 		var i, tabLink, screen;
@@ -15,12 +13,16 @@
 			for (var i = 0; i < tabLink.length; i++) {
 			 	tabLink[i].className = tabLink[i].className.replace (" active", "");}
 		
-		//make visible
-			document.getElementById(screenname).style.display = "block"; 
-			evt.currentTarget.className += " active"; }
+	//make visible
+		document.getElementById(screenname).style.display = "block"; 
+		evt.currentTarget.className += " active"; }
 	
-		// auto click on but-2
-			document.getElementById("but-2").click();
+	// auto click on but-2
+		document.getElementById("but-2").click();
+
+//start game
+	function start() { 
+		document.getElementById("but-1").click()}
 
 
 //restard
@@ -52,5 +54,4 @@
 //verkleinen
 		function verklein() { 
 			document.getElementById("modal").style.display = "none";
-			console.log('sluiten');
-		}
+			console.log('sluiten'); }

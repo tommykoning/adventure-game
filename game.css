@@ -99,7 +99,8 @@ nav {
 
 .choice {  
 	margin: 0px; 
-	margin: 5px}
+	margin: 5px; 
+	color: white; }
 
 #pic {
 	position: fixed;
@@ -122,6 +123,6 @@ li {
 	list-style-type: none;
 	font-family: "Courier New", Courier, monospace}
 
-button, li, #pic { 
+button, li, #pic, .choice { 
 	cursor:pointer; }
 

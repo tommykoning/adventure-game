@@ -7,6 +7,8 @@
 </head>
 <body>
 
+<audio src="beep.mp3"></audio>
+
 <div id="modal" alt="Picture, Location"> 
 	<button onclick="javascript:verklein();"> X </button>
 	<img id="foto-groot">
@@ -14,7 +16,7 @@
 
 <ul class="tab"> 
 <li><button class="tabLink" id="but-1" type="button" onclick="javascript:openscreen(event, 'story');">story</button></li>
-<li><button class="tabLink" id="but-2" type="button" onclick="javascript:openscreen(event, 'info')">informatie</button></li>
+<li><button class="tabLink" id="but-2" type="button" onclick="javascript:openscreen(event, 'info')">information</button></li>
 </ul>
 
 <article id="screen">
@@ -34,17 +36,13 @@
 	</div>
 
 	<div class="screen" id="info"> 
-		<p>test <p class="blink"> _ </p>
+		<p> welcome by the game of code (w.i.p title) the goal of the game is to get to the end without dying. <br> <br> if you look at the bottom of the screen you see a menu this is where can make your choices <br> <br> and the right side of the menu there is a picture when you click on it the picture will expand so you can find look at the scenery or look for clues. <br> <br> if you look at the left side of the screen you will see a small navigation box this will help you skip text or go back to previous points or even start all over again. <br> <br> when your ready press this <button id="start-story" onclick="javascript:start()">button</button> <p class="blink"> _ </p>
 		</p>
-	</div>
-
-	<div class="screen" id="credits"> 
-	<p> <p class="blink"> _ </p> </p>
 	</div>
 </article>
 
 <section id="menu">
-	<p class="choice" id="execute">> execute <br></p>
+	<p id="execute">> execute <br></p>
 	<p class="choice" id="menu-1">1 <br></p>
 	<p class="choice" id="menu-2">2 <br></p>
 	<p class="choice" id="menu-3">3 <br></p>
