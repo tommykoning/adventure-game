@@ -48,6 +48,7 @@ button {
 	left: 15%; }
 
 .blink { 
+	position: relative;
 	animation: blink 1s infinite }
 
 @keyframes blink { 
@@ -126,3 +127,5 @@ li {
 button, li, #pic, .choice { 
 	cursor:pointer; }
 
+#foto-groot { 
+max-height: 500px;}
