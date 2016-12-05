@@ -42,14 +42,14 @@ var startgame = document.getElementsByClassName("startgame");
 var story = '(year: 8102. month: may. day: 12.) i woke up my left eye hurts i see trough a faded light im trapped in a cell there is a lot of noice people yelling and screaming when i remember, i was a soldier in a prived militia we got a order to assasinate a govenour and "clean up" everything and everyone who could give any kind of information about what happend. my memory is hazy about what happend on the mission but i remember a child i dont know what happend to him/her/it but i assume we: ';
 
 //zorgt ervoor dat het gesplistst word 
-var snij = story.split('');
+var cut = story.split('');
 var count = 0;
 
 //typewrighter effect
 function typewrighter() {
 	setInterval (function (){ 
-		if (count < snij.length) { 
-			document.getElementById("text").innerHTML = document.getElementById("text").innerHTML + snij[count]; count ++ ;
+		if (count < cut.length) { 
+			document.getElementById("text").innerHTML = document.getElementById("text").innerHTML + cut[count]; count ++ ;
 		}		
 	} ,5);
 }
@@ -66,18 +66,12 @@ img.onclick = function(){
 
 //verkleinen
 function verklein() { 
-	document.getElementById("modal").style.display = "none";
-	console.log('sluiten'); 
+	document.getElementById("modal").style.display = "none"; 
 }
 
 //choices
 //chouce 1
-var but1 = document.getElementById("menu-1")
 
-but1.onclick = function() {
- story += 'test';
- console.log(test)
-}
 
 //noop 
 function noop() {};
